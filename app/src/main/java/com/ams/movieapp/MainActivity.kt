@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(Intent(Intent.ACTION_VIEW, uri))
             }
             R.id.nav_map -> {
-                Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Coming soon !", Toast.LENGTH_SHORT).show()
             }
         }
         if (fragment != null) {
